@@ -1,0 +1,313 @@
+/* @override http://www.ericrasch.com/Assets/css/style.css */
+
+/* @group TOC for EricRasch.com */
+/*-----------------------------------------------------------------------------
+[EricRasch.com] Screen Stylesheet
+
+version:   1.0
+updated:   2009-02-21
+author:    Eric Rasch
+email:     admin@campfiresites.com
+website:   http://www.ericrasch.com/
+location:  /Assets/css/style.css
+-----------------------------------------------------------------------------*/
+ 
+/**************************************\
+|------------COLOR SCHEME--------------|
+|--------------------------------------|
+- background (blue)	#1A3755
+- white		#fff
+\**************************************/
+
+/* @end */
+
+/* @group Globals */
+
+/**************************************/
+/*              @ GLOBALS             */
+/**************************************/
+html {
+	background: #18191D url(../images/BG_page.jpg) repeat-x 0 0; 
+	}
+body {
+	background: url(../images/BG_container.jpg) no-repeat center 329px; 
+	margin: 0; padding: 0;
+	}
+
+.floatL {float: left;}
+.floatR {float: right;}
+
+.container h1 {
+	color: #3d2e17;
+	font-family: Georgia, serif;
+	font-size: 2.5em !important;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	margin: 1em 1em .5em 1em;
+	}dribbble
+
+
+.container a, .container a:visited, .container a:link {color: #30cdff;}
+
+
+/* @end */
+
+/* @group Masthead */
+
+/**************************************/
+/*            @ Masthead                */
+/**************************************/
+#masthead {
+	background: url(../images/BG_masthead.jpg) no-repeat center 0; 
+	padding-top: 105px;
+	}
+
+.container h2 {
+	color:#4D4F53;
+	font: bold 1.4em Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: -.05em;
+	margin: 0;
+	}
+
+#masthead.container p {
+	margin: 1em !important;
+	width: 60%;}
+#masthead.container a {
+	color: #46679d;
+	}
+
+
+/* @end */
+
+/* @group Navigation */
+
+/**************************************/
+/*           @ NAVIGATION             */
+
+/**************************************/
+
+/* @group Main NAV */
+
+#navigation {
+	background: #4e4f52 url(../images/tagline-nav-header.jpg) no-repeat 0 0;
+	color: #FFFFFF;
+	font: normal bold 1.4em/100% Arial, Helvetica, sans-serif;
+	letter-spacing: -.05em;
+	padding: 9em 0 1em;
+	}
+
+#navigation h2, #navigation p {color: #FFFFFF;}
+
+ul#minitabs {
+	background: none;
+	font-weight: bold;
+	line-height: 30px;
+	list-style: none;
+	margin: 0; padding: 0;
+	text-align: right;
+	white-space: nowrap;
+	}
+	/* IE6 hack: this lines up the menu */
+	* html ul#minitabs {margin-top: 12px;}
+
+ul#minitabs li {display: block; margin: 0;}
+ul#minitabs a {
+	background: none !important;
+	border-bottom: 1px solid #46484B;
+	color: #FFF;
+	display: block;
+	padding: .3em .5em .4em .5em;
+	text-decoration: none;
+	}
+	/* IE6 hack: this lines up the menu */
+	* html ul#minitabs a {margin-top: -16px;}
+
+ul#minitabs a#current {color: #0099FF;}
+ul#minitabs a:hover {color: #F89500; background: url(../images/BG_nav-on.jpg) repeat-x 50% 50% !important;}
+
+ul#minitabs a.podcasts {background: url(../images/icon-nav-podcasts.jpg) no-repeat 55% center !important;}
+
+/* @end */
+/* @end */
+
+/* @group Main Content */
+
+/**************************************/
+/*          @ MAIN CONTENT            */
+/**************************************/
+#buckets {margin-top: 3em;}
+
+img.profile-pic { float: left; padding: 5px; }
+
+#flickr img, #dribbble img, #twitter img { width: 100px; margin: 10px; border: 5px solid #FFF; }
+#dribbble img {margin: 15px;}
+
+#flickr .intro, #twitter .intro, #dribbble .intro {
+	color: #3d2e17;
+	font-family: Georgia, serif;
+	font-size: 1.5em !important;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	margin: 1em;
+	}
+
+#flickr h2, #twitter h2, #dribbble h2 {
+	color: #8fc7f6;
+	font: normal normal 1em/1.5em Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: normal;
+	margin: -1.3em 1.6em 1em;
+	}
+
+#flickr p.intro, #twitter p.intro, #dribbble p.intro {
+	font-size: 1.2em !important;
+	}
+	
+.tweet {border-bottom: 1px solid #5f85a9; color: #FFF; font-size: 1.25em; padding: 1em 1em .5em 1em;}
+.tweettime {color: #b4c2cf; font-size: .8em !important; margin-top: -1.2em;}
+
+/* @end */
+
+/* @group Quotes */
+
+/**************************************/
+/*          @ Quotes         */
+/**************************************/
+#quoteBox {}
+
+#quotes {
+	background: url(../images/BG_quotes.jpg) no-repeat 0 0;
+	border: none;
+	height: 162px;
+	}
+
+#quotes  h3 {
+	border: none;
+	color:#4D4F53;
+	font: italic 2.4em Georgia, "Times New Roman", Times, serif;
+	letter-spacing: .05em;
+	margin: 1.5em 0 -.4em .6em;
+	text-align: left;
+	}
+#quotes  h4 {
+	color:#999;
+	font: 1.1em/100% "Gill Sans", "Gill Sans MT", "Tw Cen MT", Candara, "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
+	margin: 1.5em 2.5em;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+	}
+
+/* @end */
+
+/* @group Footer */
+
+/**************************************/
+/*               FOOTER               */
+/**************************************/
+
+/* @group Contact Box */
+
+/**************************************/
+/*               Contact Box          */
+/**************************************/
+
+.contactBox {text-align: center;}
+
+.contactBox h2 {
+	font-size: 4em !important;
+	letter-spacing: -.05em;
+	margin: .3em 0 !important; padding: 0;
+	}
+.contactBox p {
+	font-weight: bold;
+	margin: 0 0 1em 0 !important; padding: 0 !important;
+	}
+
+.contactBox a {color: #EE611F !important; display: inline !important;}
+
+.staffListing img {border: 3px solid #eee; margin: .1em 1em .4em 0;}
+
+/* @end */
+
+#footerWrapper {
+	background: #1e2b42;
+	width: 100% !important;
+	}
+#footer {
+	background: #1e2b42 url(../images/photos-footer.jpg) no-repeat right 20px;
+	color: #507894;
+	margin-top: 1.5em;
+	padding: 1em 0 2em;
+	}
+
+#footer h3 a, #footer li a, #footer p a {background: none; color: #71a5cc; margin: 0 !important; padding: 0 !important; text-decoration: none; white-space: normal;}
+
+#footer li a {display: block;}
+#footer a:hover {color: #FFF; background: #44667e; text-decoration: none;}
+#footer h2 {font-size: 2em; margin: 0 !important;}
+#footer h3 {font-size: 1.2em; }
+#footer p {color: #949494; font-size: .9em; margin-top: 2em; text-align: left;}
+#footer ul {list-style: none; margin: 0 !important; padding: 0 !important;}
+#footer li {display: block; margin: 0 !important; padding: 0 !important;}
+	/* for Internet Explorer 6 */
+	/*\*/
+	* html #footer li {margin: 0 0 -1.5em 0 !important; position: relative;}
+
+.vcard {
+	font-size: .9em;
+	margin-top: 1em;
+	}
+.vcard img {
+	border: 2px solid #263756;
+	margin: .5em; margin-right: .9em !important;
+	}
+/* @end */
+	
+/* @group Clear Floats */
+
+/* =Clear Floated Elements
+	.............................................................. */
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* @end */

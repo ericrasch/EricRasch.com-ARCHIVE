@@ -1,0 +1,18 @@
+/*
+ * SlideNote
+ * A jQuery Plugin for flexible, customizable sliding notifications.
+ *
+ * Copyright 2010 Tom McFarlin, http://tommcfarlin.com
+ * Released under the MIT License
+ * More information: http://slidenote.info
+*/
+
+#slidenote { -moz-box-shadow: -0.2em -0.2em 0.7em #333; -webkit-box-shadow: -0.2em -0.2em 0.7em #333; }
+#slidenote { width: 375px; background: #FBEC78; padding: 1em 0 2em 1em; margin-bottom: 0; }
+
+#slidenote img#slidenote_close {
+	top: -1.6em;
+	left: -1.8em;
+	position: relative; 
+	}
+
